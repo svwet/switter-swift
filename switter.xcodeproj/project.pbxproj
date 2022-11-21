@@ -11,6 +11,8 @@
 		34C7B702292C0DFB001ADA93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C7B701292C0DFB001ADA93 /* ContentView.swift */; };
 		34C7B704292C0DFD001ADA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C7B703292C0DFD001ADA93 /* Assets.xcassets */; };
 		34C7B707292C0DFD001ADA93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C7B706292C0DFD001ADA93 /* Preview Assets.xcassets */; };
+		34C7B716292C0F04001ADA93 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C7B715292C0F04001ADA93 /* FeedView.swift */; };
+		34C7B719292C0FF3001ADA93 /* TweetRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C7B718292C0FF3001ADA93 /* TweetRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		34C7B701292C0DFB001ADA93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		34C7B703292C0DFD001ADA93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34C7B706292C0DFD001ADA93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		34C7B715292C0F04001ADA93 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		34C7B718292C0FF3001ADA93 /* TweetRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,10 @@
 		34C7B6FE292C0DFB001ADA93 /* switter */ = {
 			isa = PBXGroup;
 			children = (
+				34C7B710292C0E67001ADA93 /* Extensions */,
+				34C7B70F292C0E66001ADA93 /* Model */,
+				34C7B70E292C0E63001ADA93 /* Service */,
+				34C7B70D292C0E57001ADA93 /* Core */,
 				34C7B6FF292C0DFB001ADA93 /* switterApp.swift */,
 				34C7B701292C0DFB001ADA93 /* ContentView.swift */,
 				34C7B703292C0DFD001ADA93 /* Assets.xcassets */,
@@ -65,6 +73,76 @@
 				34C7B706292C0DFD001ADA93 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		34C7B70D292C0E57001ADA93 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				34C7B711292C0EA1001ADA93 /* Components */,
+				34C7B712292C0EA9001ADA93 /* Feed */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		34C7B70E292C0E63001ADA93 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		34C7B70F292C0E66001ADA93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		34C7B710292C0E67001ADA93 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		34C7B711292C0EA1001ADA93 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				34C7B717292C0FC8001ADA93 /* Tweets */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		34C7B712292C0EA9001ADA93 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				34C7B713292C0EE5001ADA93 /* ViewModels */,
+				34C7B714292C0EEC001ADA93 /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		34C7B713292C0EE5001ADA93 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		34C7B714292C0EEC001ADA93 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				34C7B715292C0F04001ADA93 /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34C7B717292C0FC8001ADA93 /* Tweets */ = {
+			isa = PBXGroup;
+			children = (
+				34C7B718292C0FF3001ADA93 /* TweetRowView.swift */,
+			);
+			path = Tweets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				34C7B702292C0DFB001ADA93 /* ContentView.swift in Sources */,
+				34C7B719292C0FF3001ADA93 /* TweetRowView.swift in Sources */,
+				34C7B716292C0F04001ADA93 /* FeedView.swift in Sources */,
 				34C7B700292C0DFB001ADA93 /* switterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
