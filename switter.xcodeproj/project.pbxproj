@@ -18,6 +18,7 @@
 		34C7B722292C15E9001ADA93 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C7B721292C15E9001ADA93 /* ExploreView.swift */; };
 		34C7B724292C1604001ADA93 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C7B723292C1604001ADA93 /* NotificationsView.swift */; };
 		34C7B726292C1616001ADA93 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C7B725292C1616001ADA93 /* MessagesView.swift */; };
+		34D60D15292D5D9000F04B7E /* TweetFilterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D60D14292D5D9000F04B7E /* TweetFilterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		34C7B721292C15E9001ADA93 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		34C7B723292C1604001ADA93 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		34C7B725292C1616001ADA93 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		34D60D14292D5D9000F04B7E /* TweetFilterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 		346217B0292D521E00E1E259 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				34D60D14292D5D9000F04B7E /* TweetFilterViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -210,8 +213,8 @@
 		34C7B720292C15B5001ADA93 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				346217B1292D522600E1E259 /* Views */,
 				346217B0292D521E00E1E259 /* ViewModels */,
+				346217B1292D522600E1E259 /* Views */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				346217B3292D523100E1E259 /* ProfileView.swift in Sources */,
 				34C7B702292C0DFB001ADA93 /* ContentView.swift in Sources */,
 				34C7B719292C0FF3001ADA93 /* TweetRowView.swift in Sources */,
+				34D60D15292D5D9000F04B7E /* TweetFilterViewModel.swift in Sources */,
 				34C7B716292C0F04001ADA93 /* FeedView.swift in Sources */,
 				34C7B700292C0DFB001ADA93 /* switterApp.swift in Sources */,
 				34C7B722292C15E9001ADA93 /* ExploreView.swift in Sources */,
