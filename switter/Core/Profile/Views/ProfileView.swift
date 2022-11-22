@@ -15,7 +15,7 @@ struct ProfileView: View {
             actionButtons
             
             userInfoDetails
-            
+
             Spacer()
         }
     }
@@ -45,7 +45,7 @@ extension ProfileView {
                 }
                 Circle()
                     .frame(width: 72, height: 72)
-                .offset(x: 16, y: 24)
+                    .offset(x: 16, y: 24)
             }
             
         }.frame(height: 96)
@@ -76,10 +76,14 @@ extension ProfileView {
         VStack(alignment: .leading, spacing: 4) {
             HStack {
                 Text("Sven Wetter")
-                    .font(.title2).bold
+                    .font(.title2)
+                    .bold()
+                
                 Image(systemName: "checkmark.seal.fill")
                     .foregroundColor(Color(.systemOrange))
+                
             }
+            
             Text("@joker")
                 .font(.subheadline)
                 .foregroundColor(.gray)
@@ -104,20 +108,28 @@ extension ProfileView {
             
             HStack(spacing: 24) {
                 HStack(spacing: 4) {
-                    Text("807").bold().font(.subheadline)
+                    Text("807")
+                        .font(.subheadline)
+                        .bold()
+                        
                     
-                    Text("Following").font(.caption)
+                    Text("Following")
+                        .font(.caption)
+                        .foregroundColor(.gray)
                     
                 }
                 HStack {
                     Text("6.9M").bold().font(.subheadline)
                     
-                    Text("Followers").font(.caption)
+                    Text("Followers")
+                        .font(.caption)
+                        .foregroundColor(.gray)
                     
                 }
             }
             .padding(.vertical)
-            
-        }.padding(.horizontal)
+        }
+        .padding(.horizontal)
     }
+
 }
