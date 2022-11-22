@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		346217B3292D523100E1E259 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346217B2292D523100E1E259 /* ProfileView.swift */; };
 		34C7B700292C0DFB001ADA93 /* switterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C7B6FF292C0DFB001ADA93 /* switterApp.swift */; };
 		34C7B702292C0DFB001ADA93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C7B701292C0DFB001ADA93 /* ContentView.swift */; };
 		34C7B704292C0DFD001ADA93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C7B703292C0DFD001ADA93 /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		346217B2292D523100E1E259 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		34C7B6FC292C0DFB001ADA93 /* switter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = switter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C7B6FF292C0DFB001ADA93 /* switterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = switterApp.swift; sourceTree = "<group>"; };
 		34C7B701292C0DFB001ADA93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +46,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		346217B0292D521E00E1E259 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		346217B1292D522600E1E259 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				346217B2292D523100E1E259 /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		34C7B6F3292C0DFB001ADA93 = {
 			isa = PBXGroup;
 			children = (
@@ -193,6 +210,8 @@
 		34C7B720292C15B5001ADA93 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				346217B1292D522600E1E259 /* Views */,
+				346217B0292D521E00E1E259 /* ViewModels */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -268,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34C7B726292C1616001ADA93 /* MessagesView.swift in Sources */,
+				346217B3292D523100E1E259 /* ProfileView.swift in Sources */,
 				34C7B702292C0DFB001ADA93 /* ContentView.swift in Sources */,
 				34C7B719292C0FF3001ADA93 /* TweetRowView.swift in Sources */,
 				34C7B716292C0F04001ADA93 /* FeedView.swift in Sources */,
