@@ -24,6 +24,7 @@
 		34F7CE89292EAA4C009B1256 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F7CE88292EAA4C009B1256 /* SideMenuRowView.swift */; };
 		34F7CE8B292EAA56009B1256 /* SideMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F7CE8A292EAA56009B1256 /* SideMenuViewModel.swift */; };
 		34F7CE8D292EABCC009B1256 /* UserStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F7CE8C292EABCC009B1256 /* UserStatsView.swift */; };
+		34F7CE8F292EB356009B1256 /* SideMenuOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34F7CE8E292EB356009B1256 /* SideMenuOptionRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		34F7CE88292EAA4C009B1256 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
 		34F7CE8A292EAA56009B1256 /* SideMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewModel.swift; sourceTree = "<group>"; };
 		34F7CE8C292EABCC009B1256 /* UserStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatsView.swift; sourceTree = "<group>"; };
+		34F7CE8E292EB356009B1256 /* SideMenuOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +280,7 @@
 			children = (
 				34F7CE86292EAA3B009B1256 /* SideMenuView.swift */,
 				34F7CE88292EAA4C009B1256 /* SideMenuRowView.swift */,
+				34F7CE8E292EB356009B1256 /* SideMenuOptionRowView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				34C7B722292C15E9001ADA93 /* ExploreView.swift in Sources */,
 				34F7CE8B292EAA56009B1256 /* SideMenuViewModel.swift in Sources */,
 				34F7CE80292EA6BE009B1256 /* UserRowView.swift in Sources */,
+				34F7CE8F292EB356009B1256 /* SideMenuOptionRowView.swift in Sources */,
 				34C7B71C292C1472001ADA93 /* MainTabView.swift in Sources */,
 				34C7B724292C1604001ADA93 /* NotificationsView.swift in Sources */,
 				34F7CE8D292EABCC009B1256 /* UserStatsView.swift in Sources */,
